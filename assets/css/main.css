@@ -1,0 +1,71 @@
+:root {
+  --color-accent: #cc9933;
+  --color-accent-hover: #f0bf5f;
+  --color-accent-focus: #cc9933;
+  --color-accent-active: #a47312;
+  --color-light-blue: #cee8fa;
+
+  --color-white: #fff;
+  --color-gradient: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%);
+  --color-gary-100: #f1f1f1;
+  --color-gary-200: #e9e9e9;
+  --color-gary-300: #999999;
+  --color-gary-400: #666666;
+  --color-gary-500: #333333;
+  --color-black: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+  color: var(--color-accent);
+  padding: 5px;
+  margin: -5px;
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+a:focus {
+  color: var(--color-accent-focus);
+  outline: 1px solid var(--color-accent-focus);
+}
+
+a:active {
+  color: var(--color-accent-active);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+path {
+  transition: all 0.3s;
+}
+
+html {
+  font-family: sans-serif;
+  background-color: var(--color-gary-100);
+}
+
+body {
+  min-width: 360px;
+}
+
+.container {
+  width: 1170px;
+  max-width: calc(100% - 30px);
+  margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+.section {
+  margin: 70px 0;
+}
+
+.section__container {
+}
+
+.section__title {
+  margin-bottom: 20px;
+}
+
+.section__content {
+}
+
+.section--bg-gray {
+}
+
+.section--bg-gray .section__container {
+  background-color: var(--color-gary-200);
+  padding: 45px 40px;
+  border-radius: 15px;
+}

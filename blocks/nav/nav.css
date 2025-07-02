@@ -1,0 +1,18 @@
+.nav {
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.nav__item {
+}
+
+.nav__link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--color-gary-400);
+}

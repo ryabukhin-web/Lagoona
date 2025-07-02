@@ -1,0 +1,27 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 20px;
+  background-color: none;
+  border: 1px solid var(--color-accent);
+  color: var(--color-accent);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  height: 42px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--color-white);
+  background-color: var(--color-accent);
+}
+
+.button:active {
+  border-color: var(--color-accent-active);
+  background-color: var(--color-accent-active);
+}
