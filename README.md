@@ -3,7 +3,7 @@
 [![Demo](https://img.shields.io/badge/🚀_View_Demo-8A2BE2?style=for-the-badge&logo=github)](https://ryabukhin-web.github.io/Lagoona/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ryabukhin-web/Lagoona?color=FF69B4&style=for-the-badge)](https://github.com/ryabukhin-web/Lagoona/commits/main)
 
-<img src="assets/img/preview.jpg" width="100%" alt="Превью Lagoona" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+<img src="assets/img/preview.png" width="100%" alt="Превью Lagoona" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
 
 ---
 
