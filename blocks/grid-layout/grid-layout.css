@@ -1,0 +1,29 @@
+.grid-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  gap: 24px;
+}
+
+.grid-layout__item {
+  width: 100%;
+}
+
+.grid-layout--two-col {
+}
+
+.grid-layout--two-col .grid-layout__item {
+  flex: 1 0 calc(50% - 24px / 2);
+}
+
+.grid-layout--three-col .grid-layout__item {
+  flex: 1 0 calc(33.333% - 24px * 2 / 3);
+}
+
+.grid-layout--four-col {
+  gap: 22px;
+}
+
+.grid-layout--four-col .grid-layout__item {
+  flex: 1 0 calc(25% - 22px * 3 / 4);
+}

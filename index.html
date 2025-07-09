@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="blocks/article/article.css" />
     <link rel="stylesheet" href="blocks/card-service/card-service.css" />
     <link rel="stylesheet" href="blocks/title/title.css" />
+    <link rel="stylesheet" href="blocks/card-advantage/card-advantage.css" />
     <link rel="stylesheet" href="blocks/image-container/image-container.css" />
     <link rel="stylesheet" href="blocks/card-hotel/card-hotel.css" />
     <link rel="stylesheet" href="blocks/star-block/star-block.css" />
@@ -85,31 +86,31 @@
             <div class="section__content">
               <div class="grid-layout grid-layout--two-col">
                 <div class="grid-layout__item">
-                  <div class="card-image card-image--small">
+                  <div class="card-image">
                     <div class="card-image__inner">
                       <h3 class="card-image__title">Мальдивские острова</h3>
                       <div class="card-image__price">от 55 000 ₽</div>
                       <a href="#" class="card-image__link">Подробнее</a>
                     </div>
-                    <div class="card-image__bg" style="background-image: url(blocks/card-service/img/card-service-1.jpeg)"></div>
+                    <div class="card-image__bg" style="background-image: url(blocks/card-image/img/card-image-1.jpeg)"></div>
                   </div>
-                  <div class="card-image card-image--small">
+                  <div class="card-image">
                     <div class="card-image__inner">
                       <h3 class="card-image__title">Горящий тур на остров Крит</h3>
                       <div class="card-image__price">от 30 000 ₽</div>
                       <a href="#" class="card-image__link">Подробнее</a>
                     </div>
-                    <div class="card-image__bg" style="background-image: url(blocks/card-service/img/card-service-2.jpeg)"></div>
+                    <div class="card-image__bg" style="background-image: url(blocks/card-image/img/card-image-2.jpeg)"></div>
                   </div>
                 </div>
                 <div class="grid-layout__item">
-                  <div class="card-image card-image_big">
+                  <div class="card-image card-image--big">
                     <div class="card-image__inner">
                       <h3 class="card-image__title">Номера категории люкс</h3>
                       <div class="card-image__price">от 5 000 ₽</div>
                       <a href="#" class="card-image__link">Подробнее</a>
                     </div>
-                    <div class="card-image__bg" style="background-image: url(blocks/card-service/img/card-service-3.jpeg)"></div>
+                    <div class="card-image__bg" style="background-image: url(blocks/card-image/img/card-image-3.jpeg)"></div>
                   </div>
                 </div>
               </div>
@@ -135,11 +136,7 @@
               <div class="grid-layout grid-layout--two-col">
                 <div class="grid-layout__item">
                   <div class="card-service">
-                    <div class="card-service__image">
-                      <div class="image-container" style="background-image: url(blocks/card-service/img/card-service-1.jpeg)">
-                        <img src="blocks/card-service/img/card-service-1.jpeg" alt="Эксклюзивное обслуживание" class="image-container__image" />
-                      </div>
-                    </div>
+                    <img class="card-service__image" src="blocks/card-service/img/card-service-1.jpeg" alt="Эксклюзивное обслуживание" />
                     <div class="card-service__inner">
                       <h3 class="card-service__title">
                         <a class="card-service__title-link" href="#">Эксклюзивное обслуживание</a>
@@ -152,11 +149,7 @@
                 </div>
                 <div class="grid-layout__item">
                   <div class="card-service">
-                    <div class="card-service__image">
-                      <div class="image-container" style="background-image: url(blocks/card-service/img/card-service-2.jpeg)">
-                        <img src="blocks/card-service/img/card-service-2.jpeg" alt="Аренда банкетных залов" class="image-container__image" />
-                      </div>
-                    </div>
+                    <img class="card-service__image" src="blocks/card-service/img/card-service-2.jpeg" alt="Аренда банкетных залов" class="image-container__image" />
                     <div class="card-service__inner">
                       <h3 class="card-service__title">
                         <a class="card-service__title-link" href="#">Аренда банкетных залов</a>
@@ -169,14 +162,10 @@
                 </div>
                 <div class="grid-layout__item">
                   <div class="card-service">
-                    <div class="card-service__image">
-                      <div class="image-container" style="background-image: url(blocks/card-service/img/card-service-3.jpeg)">
-                        <img src="blocks/card-service/img/card-service-3.jpeg" alt="Сауны, бассейны, бани, фитнес-залы" class="image-container__image" />
-                      </div>
-                    </div>
+                    <img class="card-service__image" src="blocks/card-service/img/card-service-3.jpeg" alt="Сауны, бассейны, бани, фитнес-залы" class="image-container__image" />
                     <div class="card-service__inner">
                       <h3 class="card-service__title">
-                        <a class="card-service__title-link" href="Сауны, бассейны, бани, фитнес-залы"></a>
+                        <a class="card-service__title-link" href="#">Сауны, бассейны, бани, фитнес-залы</a>
                       </h3>
                       <div class="card-service__text">
                         <p>Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
@@ -186,14 +175,10 @@
                 </div>
                 <div class="grid-layout__item">
                   <div class="card-service">
-                    <div class="card-service__image">
-                      <div class="image-container" style="background-image: url(blocks/card-service/img/card-service-4.jpeg)">
-                        <img src="blocks/card-service/img/card-service-4.jpeg" alt="Охраняемые автомобильные стоянки" class="image-container__image" />
-                      </div>
-                    </div>
+                    <img class="card-service__image" src="blocks/card-service/img/card-service-4.jpeg" alt="Охраняемые автомобильные стоянки" class="image-container__image" />
                     <div class="card-service__inner">
                       <h3 class="card-service__title">
-                        <a class="card-service__title-link" href="Охраняемые автомобильные стоянки"></a>
+                        <a class="card-service__title-link" href="#">Охраняемые автомобильные стоянки</a>
                       </h3>
                       <div class="card-service__text">
                         <p>Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
