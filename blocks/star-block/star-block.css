@@ -1,0 +1,67 @@
+.star-block {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.star-block__star {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  cursor: pointer;
+}
+
+.star-block__star::before,
+.star-block__star::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 14px;
+  height: 14px;
+  transition: all 0.3s;
+}
+
+.star-block__star::before {
+  background-image: url(img/star.svg);
+  background-repeat: no-repeat;
+  background-size: 14px;
+  background-position: center;
+  opacity: 1;
+}
+
+.star-block__star::after {
+  background-image: url(img/star-active.svg);
+  background-repeat: no-repeat;
+  background-size: 14px;
+  background-position: center;
+  opacity: 0;
+}
+
+.star-block__star--active {
+}
+
+.star-block__star--active::before {
+  opacity: 0;
+}
+
+.star-block__star--active::after {
+  opacity: 1;
+}
+
+.star-block:hover .star-block__star::before {
+  opacity: 0;
+}
+
+.star-block:hover .star-block__star::after {
+  opacity: 1;
+}
+
+.star-block:hover .star-block__star:hover ~ .star-block__star::before {
+  opacity: 1;
+}
+
+.star-block:hover .star-block__star:hover ~ .star-block__star::after {
+  opacity: 0;
+}

@@ -9,6 +9,10 @@
   width: 100%;
 }
 
+.grid-layout--stretch {
+  align-items: stretch;
+}
+
 .grid-layout--two-col {
 }
 

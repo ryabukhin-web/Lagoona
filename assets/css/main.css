@@ -68,3 +68,7 @@ body {
   max-width: calc(100% - 30px);
   margin: 0 auto;
 }
+
+.span-gray {
+  color: var(--color-gary-300);
+}

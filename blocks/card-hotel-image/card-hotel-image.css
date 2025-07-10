@@ -1,0 +1,55 @@
+.card-hotel-image {
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  padding: 60px 20px 27px 20px;
+}
+
+.card-hotel-image__inner {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 1;
+}
+
+.card-hotel-image__link {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2;
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-white);
+}
+
+.card-hotel-image__link::after {
+  content: "";
+  background-image: url(../../assets/img/icons/arrow-left.svg);
+  background-repeat: no-repeat;
+  background-size: 12px 17px;
+  background-position: center;
+  width: 12px;
+  height: 16px;
+  margin-left: 7px;
+}
+
+.card-hotel-image__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.card-hotel-image__image .image-container {
+    width: 100%;
+    height: 100%;
+}
+
+.card-hotel-image__image .image-container::before {
+  display: none;
+}
